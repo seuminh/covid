@@ -22,20 +22,6 @@ const drawerOptions = {
             drawerIcon:({tintColor})=><Feather name="home" size={16} color={tintColor}></Feather>
         }
     },
-    AboutStack: {
-        screen: AboutStack,
-        navigationOptions: {
-            title: "អំពីកម្មវិធី",
-            drawerIcon:({tintColor})=><Feather name="info" size={16} color={tintColor}></Feather>
-        }
-    },
-    ProfileStack: {
-        screen: ProfileStack,
-        navigationOptions: {
-            title: "Profile",
-            drawerIcon:({tintColor})=><Feather name="user" size={16} color={tintColor}></Feather>
-        }
-    },
     StatisticStack: {
         screen: StatisticStack,
         navigationOptions: {
@@ -55,6 +41,20 @@ const drawerOptions = {
         navigationOptions: {
             title: "អាការះ",
             drawerIcon:({tintColor})=><MaterialIcons name="mood-bad" size={16} color={tintColor}></MaterialIcons>
+        }
+    },
+    ProfileStack: {
+        screen: ProfileStack,
+        navigationOptions: {
+            title: "Profile",
+            drawerIcon:({tintColor})=><Feather name="user" size={16} color={tintColor}></Feather>
+        }
+    },
+    AboutStack: {
+        screen: AboutStack,
+        navigationOptions: {
+            title: "អំពីកម្មវិធី",
+            drawerIcon:({tintColor})=><Feather name="info" size={16} color={tintColor}></Feather>
         }
     },
 }

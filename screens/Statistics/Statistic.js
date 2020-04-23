@@ -259,7 +259,8 @@ const styles = StyleSheet.create({
     },
     title: {
         alignItems:"center",
-        marginTop:10
+        marginTop:10,
+        paddingBottom:7
     },
     update: {
         marginTop:5,
