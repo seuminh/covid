@@ -53,7 +53,7 @@ class NoteSymptom extends Component {
         this.setState({loading:true});
         NetInfo.fetch().then(state1 => {
             if(!state1.isConnected){
-                this.setState({isInternetReachable:state1.isConnected});
+                this.setState({isInternetReachable:state1.isConnected,loading:false});
                 return;
             }
         });
