@@ -10,7 +10,7 @@ class Profile extends Component {
         return (
             <View style={styles.container}>
                 <Text style={{fontSize:17,marginBottom:25}}>This screen is under maintenance</Text>
-                <Image source={{uri:'https://cdn.dribbble.com/users/2085072/screenshots/4963880/routine-maintenance-2.gif'}} style={styles.image}></Image>
+                <Image source={require('../../assets/maintenance.gif')} style={styles.image}></Image>
             </View>
         );
     }
