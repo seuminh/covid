@@ -29,7 +29,7 @@ class Statistic extends Component {
     }
 
     fetchApi = ()=>{
-        fetch('http://covid19cambodia.herokuapp.com/')
+        fetch('http://covid19apikh.herokuapp.com/')
             .then(res=>res.json())
             .then(data=>{
                 this.setState({
