@@ -39,7 +39,7 @@ class Home extends Component {
                     data:data,
                     loading:false,
                 })
-                console.log(data);
+                // console.log(data);
             })
     }
 

@@ -68,7 +68,8 @@ const styles = StyleSheet.create({
     textAlign:"center",
     color:'red',
     fontSize:15,
-    marginVertical:15
+    marginVertical:15,
+    paddingBottom:30
   },
   explain: {
       fontSize:15,
