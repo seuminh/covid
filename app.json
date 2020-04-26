@@ -1,12 +1,22 @@
 {
   "expo": {
-    "name": "Covid",
+    "name": "Covid-19 KH",
     "slug": "Covid",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "sdkVersion": "37.0.0",
+    "android": {
+      "package": "hello.covidapp",
+      "permissions": [],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCul_9HD5YjnYs-4KjBO8Fz-UbIwvNM-DM"
+        }
+      }
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
