@@ -30,7 +30,7 @@ const drawerOptions = {
     GlobeStack: {
         screen: GlobeStack,
         navigationOptions: {
-            title: "ពិភពលោក",
+            title: "សកលលោក",
             drawerIcon:({tintColor})=><Ionicons name="md-globe" size={16} color={tintColor}></Ionicons>
         }
     },

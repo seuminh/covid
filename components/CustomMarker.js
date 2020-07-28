@@ -9,6 +9,14 @@ class CustomMarker extends Component {
         };
     }
 
+    componentDidMount(){
+        if(this.state.cases>40){
+            this.setState({
+                cases:40
+            })
+        }
+    }
+
     render() {
         const {cases}=this.state;
         return (

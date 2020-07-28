@@ -118,10 +118,6 @@ class Statistic extends Component {
                                 onPress={()=>{
                                     this.downButtonHandler(key)
                                 }}
-                                // onPress={this.indexChange(key)}
-                                // title={province.location}
-                                // description={`Cases: ${province.cases.toString()}`}
-                                // image={require('./assets/marker.png')}
                             >
                                 <CustomMarker cases={province.cases}/>
                                 <MapView.Callout>

@@ -11,7 +11,7 @@ const screens = {
         screen: Globe,
         navigationOptions: ({navigation})=> {
             return({
-                headerTitle:()=><Header title="ពិភពលោក" navigation={navigation}></Header>
+                headerTitle:()=><Header title="សកលលោក" navigation={navigation}></Header>
             })
         }
     },
